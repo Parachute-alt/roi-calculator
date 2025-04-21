@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing ROI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <a href="http://agenceparachute.ca/" target="_blank">
+                <img src="Parachute_LOGO DETAILS.png" alt="Parachute Logo" class="logo-parachute">
+            </a>
+        </div>
+
+        <h1>Marketing ROI Calculator</h1>
+        
+        <div class="form-group">
+            <label for="investissement">Marketing Investment:</label>
+            <input type="number" id="investissement" placeholder="Enter your investment" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="revenus">Generated Revenue:</label>
+            <input type="number" id="revenus" placeholder="Enter your revenue" required>
+        </div>
+        
+        <button onclick="calculerROI()">Calculate ROI</button>
+
+        <div id="resultat" class="resultat"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
