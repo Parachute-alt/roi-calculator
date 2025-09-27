@@ -38,3 +38,6 @@ cd roi-calculator
 Investment: $500
 Return: $750
 ROI = 50%
+
+[![Try it online](https://img.shields.io/badge/Try%20it-online-brightgreen)](https://studioparachute.co/en/free-marketing-tools-roi-analytics-tool)
+
